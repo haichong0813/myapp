@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res) {
-  res.send('respond with a resource');
+  res.render('resume', { title: '赵海龙 - 前端开发' });
 });
 
 module.exports = router;
